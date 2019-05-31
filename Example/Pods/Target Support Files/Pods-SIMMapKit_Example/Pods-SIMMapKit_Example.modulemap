@@ -1,0 +1,6 @@
+framework module Pods_SIMMapKit_Example {
+  umbrella header "Pods-SIMMapKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
