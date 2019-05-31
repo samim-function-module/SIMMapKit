@@ -9,8 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SIMMapKitAMapViewController : UIViewController
+typedef void(^SelectLocationSuccessBlock)(NSDictionary *locationDic);
 
+@interface SIMMapKitAMapViewController : UIViewController
+@property (nonatomic,copy  )  NSString  *mapKey;
+@property (nonatomic,copy  )  SelectLocationSuccessBlock   successBlock;
 @end
 
 NS_ASSUME_NONNULL_END

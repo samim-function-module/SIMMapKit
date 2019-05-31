@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SIMMapKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SIM地图之一 高德地图 上半部分显示地图，下半部分显示位置文字信息'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,18 @@ TODO: SIM地图之一 高德地图 上半部分显示地图，下半部分显示
 
   s.source_files = 'SIMMapKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SIMMapKit' => ['SIMMapKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'SIMMapKit' => ['SIMMapKit/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  #MJ刷新
+  s.dependency 'MJRefresh'
+  #高德地图相关SDK（无IDFA版）
+  s.dependency 'AMapLocation-NO-IDFA'
+  s.dependency 'AMapSearch-NO-IDFA'
+  s.dependency 'AMap2DMap-NO-IDFA'
 end
