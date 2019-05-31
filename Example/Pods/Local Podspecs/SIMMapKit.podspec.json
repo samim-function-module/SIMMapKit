@@ -1,9 +1,9 @@
 {
   "name": "SIMMapKit",
   "version": "0.1.0",
-  "summary": "A short description of SIMMapKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ZacharyIcoder/SIMMapKit",
+  "summary": "SIM地图之一 高德地图 上半部分显示地图，下半部分显示位置文字信息",
+  "description": "TODO: SIM地图之一 高德地图 上半部分显示地图，下半部分显示位置文字信息",
+  "homepage": "https://github.com/samim-function-module/SIMMapKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "ZacharyIcoder": "811528603@qq.com"
   },
   "source": {
-    "git": "https://github.com/ZacharyIcoder/SIMMapKit.git",
+    "git": "https://github.com/samim-function-module/SIMMapKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
