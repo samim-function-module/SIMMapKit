@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SIMMapKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'SIM地图之一 高德地图 上半部分显示地图，下半部分显示位置文字信息'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: SIM地图之一 高德地图 上半部分显示地图，下半部分显示
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZacharyIcoder' => '811528603@qq.com' }
-  s.source           = { :git => 'https://github.com/samim-function-module/SIMMapKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/samim-function-module/SIMMapKit.git', :tag => '0.1.2' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
